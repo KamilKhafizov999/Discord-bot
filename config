@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "heroku"]
+	url = https://git.heroku.com/bot-kamil.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "origin"]
+	url = https://github.com/KamilKhafizov999/Discord-bot.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
