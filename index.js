@@ -265,35 +265,9 @@ async function test (message) {
 
 client.on("message", async message => { 
     if (message.author.bot) return;
-    // if(message.author.username == "WejoLe")
-    //     message.reply("Хули ты пишешь, гей");
-    //if(message.author.username != "WejoLe")
-        //message.reply("Здравствуй, " + message.author.username);
-    //message.reply(commands.test1());
     test(message);
 
 
-
-    // var YouTube = require('youtube-node');
-
-    // var youTube = new YouTube();
-
-    // youTube.setKey('AIzaSyBVNZyrLWdeGywwe7WDHm4OmROXHo9bb80');
-
-    // youTube.search('World War z Trailer', 2, function(error, result) {
-    // if (error) {
-    //     console.log(error);
-    // }
-    // else {
-    //     //console.log(JSON.stringify(result, null, 2));
-    //     console.log(result.items[0].id.videoId);
-    // }
-    // });
-
-
-
-//https://www.youtube.com/watch?v=
-///Md6Dvxdr0AQ
 });
 
 
